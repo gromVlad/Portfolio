@@ -1,0 +1,49 @@
+.main {
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  padding: 50px;
+  width: 50%;  
+  animation: slide-left 3s; 
+}
+
+.photo {
+  padding: 50px;
+  width: 50%;
+  text-align: center;
+  animation: slide-right 3s;
+}
+
+.photo img {
+   width:70%;
+}
+
+@keyframes slide-left {
+  from {  
+    margin-left: -400px;  
+  }
+  to {
+    margin-left: 0;  
+  }
+}
+
+@keyframes slide-right {
+  from {  
+    margin-right: -400px;   
+  }
+  to { 
+    margin-right: 0;   
+  }
+}
+
+@media (max-width: 605px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .photo img {
+   width:100%;
+}
+}
