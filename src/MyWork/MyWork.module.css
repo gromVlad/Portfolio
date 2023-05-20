@@ -57,3 +57,19 @@
 .project:hover .projectInfo {
   transform: translateY(-100%);
 }
+
+.button {
+  margin: 10px;
+  background-color: #2a9d8f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding:1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: #21867a;
+}

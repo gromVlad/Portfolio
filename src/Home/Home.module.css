@@ -5,8 +5,8 @@
 
 .text {
   padding: 50px;
-  width: 50%;  
-  animation: slide-left 3s; 
+  width: 50%;
+  animation: slide-left 3s;
 }
 
 .photo {
@@ -17,24 +17,33 @@
 }
 
 .photo img {
-   width:70%;
+  width: 80%;
+  border-radius: 50%;
 }
 
 @keyframes slide-left {
-  from {  
-    margin-left: -400px;  
+  from {
+    margin-left: -400px;
   }
   to {
-    margin-left: 0;  
+    margin-left: 0;
   }
 }
 
+h1 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
 @keyframes slide-right {
-  from {  
-    margin-right: -400px;   
+  from {
+    margin-right: -400px;
   }
-  to { 
-    margin-right: 0;   
+  to {
+    margin-right: 0;
   }
 }
 
@@ -44,6 +53,29 @@
   }
 
   .photo img {
-   width:100%;
+    width: 100%;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
 }
+
+@media (max-width: 1000px) {
+  .photo img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
 }
