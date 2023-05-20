@@ -12,27 +12,26 @@ export function MyWork(): JSX.Element {
           <div className={styles.projectInfo}>
             <p>Social network</p>
           </div>
-          <a
-            target="_blank"
-            href="https://gromvlad.github.io/samurai_way_main"
-          >
+          <a target="_blank" href="https://gromvlad.github.io/samurai_way_main">
             <button className={styles.button}>view</button>
           </a>
         </div>
-        
+
         <div className={styles.project}>
           <img src={socialNetwork} alt="Project 1" />
           <div className={styles.projectInfo}>
             <p>Social network</p>
           </div>
-          <a
-            target="_blank"
-            href="https://gromvlad.github.io/samurai_way_main"
-          >
+          <a target="_blank" href="https://gromvlad.github.io/samurai_way_main">
             <button className={styles.button}>view</button>
           </a>
         </div>
-        
+
+        <div>
+          <a target="_blank" href="https://gromvlad.github.io/samurai_way_main">
+            <button className={styles.button}>view more</button>
+          </a>
+        </div>
       </div>
     </section>
   );
