@@ -1,10 +1,12 @@
-import React from "react";
 import styles from "./Home.module.css";
 import profile from "../log/profile.jpg";
 
+
 export function Home(): JSX.Element {
+
+ 
   return (
-    <main className={styles.main}>
+    <main className={styles.main} id="home">
       <div className={styles.text}>
         <h1 className={styles.h1}>Welcome to my portfolio website!</h1>
         <p className={styles.p}>

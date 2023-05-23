@@ -5,7 +5,7 @@ import todolist from "../log/todolist.png";
 
 export function MyWork(): JSX.Element {
   return (
-    <section className={styles.workSection}>
+    <section className={styles.workSection} id="portfolio">
       <h2>My Work</h2>
       <div className={styles.portfolioWorks}>
         <div className={styles.project}>

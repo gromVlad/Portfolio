@@ -1,6 +1,6 @@
-
 import React, { useState } from "react";
 import styles from "./Header.module.css";
+import { Link } from "react-scroll";
 
 function Header(): JSX.Element {
   
@@ -11,17 +11,25 @@ function Header(): JSX.Element {
         <div className={styles.logo}>My Portfolio</div>
         <nav className={`${styles.nav} `}>
           <ul>
+            {/* <li>
+              <Link to="home" spy={true} smooth={true}>
+                Home
+              </Link>
+            </li> */}
             <li>
-              <a href="#">Home</a>
+              <Link to="about" spy={true} smooth={true}>
+                About
+              </Link>
             </li>
             <li>
-              <a href="#">About</a>
+              <Link to="portfolio" spy={true} smooth={true}>
+                Portfolio
+              </Link>
             </li>
             <li>
-              <a href="#">Portfolio</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
+              <Link to="contact" spy={true} smooth={true}>
+                Contact
+              </Link>
             </li>
           </ul>
         </nav>

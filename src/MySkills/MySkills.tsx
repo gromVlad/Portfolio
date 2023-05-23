@@ -16,9 +16,13 @@ import reactQuery from "../log/reactQuery.png";
 import Websocket from "../log/Websocket.svg";
 
 
+
+
 export function MySkills() {
+
+
   return (
-    <section className={styles.skillsSection}>
+    <section className={styles.skillsSection} id="about">
       <h2>My Skills</h2>
       <div className={styles.skillsContainer}>
         <div className={styles.skill}>
