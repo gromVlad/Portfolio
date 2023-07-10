@@ -5,6 +5,7 @@ import todolist from "../log/todolist.png";
 import count from "../log/count.png";
 
 export function MyWork(): JSX.Element {
+
   return (
     <section className={styles.workSection} id="portfolio">
       <h2>My Work</h2>

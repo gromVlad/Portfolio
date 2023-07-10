@@ -15,13 +15,11 @@ import apollo from "../log/apollo.png";
 import reactQuery from "../log/reactQuery.png";
 import Websocket from "../log/Websocket.svg";
 
-
-
-
 export function MySkills() {
-
+  const Fade = require("react-reveal/Fade")
 
   return (
+    <Fade bottom >
     <section className={styles.skillsSection} id="about">
       <h2>My Skills</h2>
       <div className={styles.skillsContainer}>
@@ -88,6 +86,7 @@ export function MySkills() {
         {/* More skills */}
       </div>
     </section>
+    </Fade >
   );
 }
 

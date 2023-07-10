@@ -4,10 +4,11 @@ import profile from "../log/profile.jpg";
 
 export function Home(): JSX.Element {
 
- 
+  
   return (
     <main className={styles.main} id="home">
       <div className={styles.text}>
+
         <h1 className={styles.h1}>Welcome to my portfolio website!</h1>
         <p className={styles.p}>
           Here you can find information about me and my work.
@@ -17,5 +18,6 @@ export function Home(): JSX.Element {
         <img src={profile} alt="profile" />
       </div>
     </main>
+   
   );
 }

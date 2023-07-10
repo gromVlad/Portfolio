@@ -86,3 +86,8 @@
     transform: translateY(-100%);
   }
 }
+
+.fade{
+  position: relative;
+  z-index: 0;
+}

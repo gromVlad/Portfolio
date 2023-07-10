@@ -6,14 +6,21 @@
 .text {
   padding: 50px;
   width: 50%;
-  animation: slide-left 3s;
+  text-align: left;
+  animation: slide-right 1.5s forwards;
+  opacity: 0;
+  transform: translateX(-50%);
 }
 
 .photo {
+  position: relative;
+  z-index: -1;
   padding: 50px;
   width: 50%;
   text-align: center;
-  animation: slide-right 3s;
+  animation: slide-left 1.5s forwards;
+  opacity: 0;
+  transform: translateX(50%);
 }
 
 .photo img {
@@ -23,10 +30,12 @@
 
 @keyframes slide-left {
   from {
-    margin-left: -400px;
+    transform: translateX(50%);
+    opacity: 0;
   }
   to {
-    margin-left: 0;
+    transform: translateX(0);
+    opacity: 1;
   }
 }
 
@@ -40,10 +49,12 @@ p {
 
 @keyframes slide-right {
   from {
-    margin-right: -400px;
+    transform: translateX(-50%);
+    opacity: 0;
   }
   to {
-    margin-right: 0;
+    transform: translateX(0);
+    opacity: 1;
   }
 }
 
