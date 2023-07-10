@@ -4,6 +4,10 @@
   "private": true,
   "homepage": "https://gromVlad.github.io/Portfolio",
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.13.7",
+    "@mui/material": "^5.13.7",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -26,7 +30,7 @@
     "tsparticles-updater-tilt": "^2.10.1",
     "tsparticles-updater-twinkle": "^2.10.1",
     "tsparticles-updater-wobble": "^2.10.1",
-    "typescript": "^5.0.4",
+    "typescript": "^5.1.6",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

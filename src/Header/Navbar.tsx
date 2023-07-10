@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-import styles from "./Header.module.css";
+import styles from "./Navbar.module.css";
 import { Link } from "react-scroll";
 
-function Header(): JSX.Element {
-  
+function Navbar(): JSX.Element {
 
   return (
     <header className={styles.header}>
@@ -33,4 +32,4 @@ function Header(): JSX.Element {
   );
 }
 
-export default Header;
+export default Navbar;

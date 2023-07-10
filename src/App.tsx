@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from "./App.module.css";
-import Header from './Header/Header';
+import Header from './Header/Navbar';
 import Footer from './Footer/Footer';
 import { MySkills } from './MySkills/MySkills';
 import { MyWork } from './MyWork/MyWork';
@@ -11,6 +11,8 @@ import { useCallback } from "react";
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
 import { options } from './components/config';
+import Navbar from './Header/Navbar';
+
 
 
 function App(): JSX.Element {
@@ -33,7 +35,7 @@ function App(): JSX.Element {
         options={options}
       />
       <div className={styles.app}>
-        <Header />
+        <Navbar />
         <Home />
         <MySkills />
         <MyWork />

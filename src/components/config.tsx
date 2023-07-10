@@ -1,10 +1,10 @@
 export const options:any = {
   background: {
     color: {
-      value: "#0d47a1",
+      value: "#333",
     },
   },
-  fpsLimit: 20,
+  fpsLimit: 30,
   interactivity: {
     events: {
       onClick: {
@@ -48,7 +48,7 @@ export const options:any = {
         default: "bounce",
       },
       random: false,
-      speed: 2,
+      speed: 3,
       straight: false,
     },
     number: {
