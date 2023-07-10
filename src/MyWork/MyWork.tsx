@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./MyWork.module.css";
 import socialNetwork from "../log/socialNetwork.png";
 import todolist from "../log/todolist.png";
+import count from "../log/count.png";
 
 export function MyWork(): JSX.Element {
   return (
@@ -19,11 +20,21 @@ export function MyWork(): JSX.Element {
         </div>
 
         <div className={styles.project}>
-          <img src={todolist} alt="Project 1" />
+          <img src={todolist} alt="Project 2" />
           <div className={styles.projectInfo}>
             <p>Todolist</p>
           </div>
           <a target="_blank" href="https://gromvlad.github.io/todoList">
+            <button className={styles.button}>view</button>
+          </a>
+        </div>
+
+        <div className={styles.project}>
+          <img src={count} alt="Project 3" />
+          <div className={styles.projectInfo}>
+            <p>Count</p>
+          </div>
+          <a target="_blank" href="https://gromVlad.github.io/Micro_project">
             <button className={styles.button}>view</button>
           </a>
         </div>

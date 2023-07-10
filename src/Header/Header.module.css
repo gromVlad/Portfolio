@@ -42,15 +42,17 @@
 }
 
 .nav a {
+  position: relative;
   color: #333;
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
   transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .nav a:hover {
-  color: #007bff;
+  color: #21867a;
 }
 
 @media (max-width: 605px) {

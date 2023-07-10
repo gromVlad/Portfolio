@@ -11,11 +11,6 @@ function Header(): JSX.Element {
         <div className={styles.logo}>My Portfolio</div>
         <nav className={`${styles.nav} `}>
           <ul>
-            {/* <li>
-              <Link to="home" spy={true} smooth={true}>
-                Home
-              </Link>
-            </li> */}
             <li>
               <Link to="about" spy={true} smooth={true}>
                 About
