@@ -30,7 +30,7 @@ export function MyWork(): JSX.Element {
           </a>
         </div>
 
-        <div className={styles.project}>
+        {/* <div className={styles.project}>
           <img src={count} alt="Project 3" />
           <div className={styles.projectInfo}>
             <p>Count</p>
@@ -38,7 +38,7 @@ export function MyWork(): JSX.Element {
           <a target="_blank" href="https://gromVlad.github.io/Micro_project">
             <button className={styles.button}>view</button>
           </a>
-        </div>
+        </div> */}
       </div>
       <div className={styles.buttonMore}>
         <a target="_blank" href="https://github.com/gromVlad">

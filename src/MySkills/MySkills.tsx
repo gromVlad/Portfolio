@@ -47,10 +47,10 @@ export function MySkills() {
           <img src={storyBook} alt="Story book" />
           <p>Story book</p>
         </div>
-        <div className={styles.skill}>
+        {/* <div className={styles.skill}>
           <img src={GraphQL} alt="GraphQL" />
           <p>GraphQL</p>
-        </div>
+        </div> */}
         <div className={styles.skill}>
           <img src={redux} alt="Redux-Toolkit" />
           <p>Redux-Toolkit</p>
@@ -63,15 +63,15 @@ export function MySkills() {
           <img src={test} alt="Unit tests" />
           <p>Unit tests</p>
         </div>
-        <div className={styles.skill}>
+        {/* <div className={styles.skill}>
           <img src={reduxSaga} alt="Redux-Saga" />
           <p>Redux-Saga</p>
-        </div>
-        <div className={styles.skill}>
+        </div> */}
+        {/* <div className={styles.skill}>
           <img src={apollo} alt="Apollo" />
           <p>Apollo</p>
-        </div>
-        <div className={styles.skill}>
+        </div> */}
+        {/* <div className={styles.skill}>
           <img src={react} alt="React Native" />
           <p>React Native</p>
         </div>
@@ -82,7 +82,7 @@ export function MySkills() {
         <div className={styles.skill}>
           <img src={Websocket} alt="WebSocket" />
           <p>WebSocket</p>
-        </div>
+        </div> */}
         {/* More skills */}
       </div>
     </section>
